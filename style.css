@@ -18,7 +18,23 @@ body {
   margin-bottom: 100px;
 }
 
-h1, h2, ul {
+/* /* Navigation */
+.home-header {
+  display: flex;
+  justify-content: center;
+}
+.home-header ul li a {
+  text-decoration: none;
+  color: black;
+}
+.home-header ul li a:hover {
+  cursor: pointer;
+  color: #6e6c6c;
+}
+/* ______________________ */
+h1,
+h2,
+ul {
   color: #f68d42;
   text-align: center;
   font-weight: bold;
@@ -37,7 +53,8 @@ ul li {
   margin: 10px;
 }
 
-article, section {
+article,
+section {
   background-color: #faf0e6;
   padding: 15px;
   padding-bottom: 45px;
@@ -66,7 +83,8 @@ form {
   text-align: center;
 }
 
-input, textarea {
+input,
+textarea {
   width: 80%;
   padding: 10px;
   border: 1px solid #f2cb8d;
